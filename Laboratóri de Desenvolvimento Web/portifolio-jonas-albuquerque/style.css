@@ -25,6 +25,15 @@ body {
     font: arial 20px bolder;
 }
 
+.home {
+    background-color: white;
+    
+}
+
+.sobre {
+    background-color: white;
+}
+
 footer p {
     text-align: center;
 }
