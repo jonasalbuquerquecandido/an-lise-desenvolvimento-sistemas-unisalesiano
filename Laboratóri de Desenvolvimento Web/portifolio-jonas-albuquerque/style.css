@@ -20,21 +20,14 @@ header {
     text-decoration: none;
 }
 
-.navbar a:hover {
-
-}
-
 body {
-    background: linear-gradient(to left,blue,white);
+    background: linear-gradient(to left,gray,white);
     font: arial 20px bolder;
 }
-
 
 footer p {
     text-align: center;
 }
-
-
 
 ul {
     list-style: none;
