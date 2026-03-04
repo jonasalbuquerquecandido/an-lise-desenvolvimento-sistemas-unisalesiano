@@ -72,7 +72,6 @@ body h2 {
 footer {
     margin: 20px auto;
     color: white;
-    background: linear-gradient(black, black);
     height: 4rem;
     display: flex;
     justify-content: center;
@@ -83,7 +82,7 @@ footer {
 main, section, footer {
     max-width: 800px;
     margin: 20px auto;
-    background: #80894f;
+    background: rgba(255, 255, 0, 0.582);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.479);
