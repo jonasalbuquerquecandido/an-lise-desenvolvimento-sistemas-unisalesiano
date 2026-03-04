@@ -14,6 +14,8 @@ body {
 
 h1 {
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 body h2 {
@@ -21,6 +23,8 @@ body h2 {
 }
 
 .nav-container ul {
+    
+    background: black;
     display: flex;
     justify-content: center;
     list-style: none;
@@ -31,7 +35,7 @@ body h2 {
     display: flex;
     justify-content: center;
     gap: 20px;
-    color: black;
+    color: white;
     padding: 1rem 0;
 }
 
@@ -52,11 +56,23 @@ body h2 {
     align-items: center;
     margin-top: 1rem;
 }
+
 footer {
+    margin: 20px auto;
     color: white;
     background: linear-gradient(black, black);
     height: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.1);
+}
+
+main, section, footer {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #80894f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.1);
 }
