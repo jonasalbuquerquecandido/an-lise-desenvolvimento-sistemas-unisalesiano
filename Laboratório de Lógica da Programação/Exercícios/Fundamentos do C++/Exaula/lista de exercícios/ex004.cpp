@@ -3,11 +3,14 @@
 
 using namespace std;
 
-main(){
-	setlocale(LC_ALL, "portuguese");
+int main(){
+	setlocale(LC_ALL, "Portuguese");
 	float metros, centimetros;
+	cout << "---------------------------------- \n";
+	cout << "QUANTOS CENTÍMETROS TEM POR METRO? \n";
+	cout << "---------------------------------- \n";
 	cout << "Digite quantos métros: ";
 	cin >> metros;
-	centimetros = metros / 100;
-	cout << "A média dos números: " <<n1<< " , " <<n2<< " e " <<n3<< " é " <<media;
+	centimetros = metros * 100;
+	cout <<metros<< " metros tem " <<centimetros<< " centímetros";
 }

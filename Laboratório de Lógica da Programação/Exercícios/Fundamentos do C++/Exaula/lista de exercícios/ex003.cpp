@@ -13,5 +13,5 @@ main(){
 	cout << "Digite o terceiro número: ";
 	cin >> n3;
 	media = (n1+n2+n3)/3;
-	cout << "A média dos números: " <<n1<< " , " <<n2<< " e " <<n3<< " é " <<media;
+	cout << "A média dos números: " <<n1<< ", " <<n2<< " e " <<n3<< " é: " <<media;
 }

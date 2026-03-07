@@ -3,7 +3,7 @@
 
 using namespace std;
 
-main(){
+int main(){
 	setlocale(LC_ALL, "portuguese");
 	int n1, n2, soma;
 	cout << "Digite um número: ";
