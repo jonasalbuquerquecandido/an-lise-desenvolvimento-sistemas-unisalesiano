@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex01"/>
+        <attribute name="authors" value="jonas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-09 05:47:03 "/>
+        <attribute name="created" value="am9uYXM7REVTS1RPUC1QSk5IMzgwOzIwMjYtMDMtMDk7IjA1OjQwOjI4ICI7Mjc3Nw=="/>
+        <attribute name="edited" value="am9uYXM7REVTS1RPUC1QSk5IMzgwOzIwMjYtMDMtMDk7IjA1OjQ3OjAzICI7MjsyODg2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, sucessor, antecessor" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero&quot;" newline="True"/>
+            <input variable="num"/>
+            <assign variable="antecessor" expression="num - 1"/>
+            <assign variable="sucessor" expression="num +1"/>
+            <output expression="antecessor" newline="True"/>
+            <output expression="sucessor" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

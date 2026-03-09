@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex01"/>
+        <attribute name="authors" value="jonas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-09 05:51:35 "/>
+        <attribute name="created" value="am9uYXM7REVTS1RPUC1QSk5IMzgwOzIwMjYtMDMtMDk7IjA1OjQwOjI4ICI7Mjc3Nw=="/>
+        <attribute name="edited" value="am9uYXM7REVTS1RPUC1QSk5IMzgwOzIwMjYtMDMtMDk7IjA1OjUxOjM1ICI7NDsyODg4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="metros, centimetros" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite quantos metros&quot;" newline="True"/>
+            <input variable="metros"/>
+            <assign variable="centimetros" expression="metros * 100"/>
+            <output expression="centimetros" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

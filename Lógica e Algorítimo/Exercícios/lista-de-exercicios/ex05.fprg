@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ex01"/>
+        <attribute name="authors" value="jonas"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-09 05:53:13 "/>
+        <attribute name="created" value="am9uYXM7REVTS1RPUC1QSk5IMzgwOzIwMjYtMDMtMDk7IjA1OjQwOjI4ICI7Mjc3Nw=="/>
+        <attribute name="edited" value="am9uYXM7REVTS1RPUC1QSk5IMzgwOzIwMjYtMDMtMDk7IjA1OjUzOjEzICI7NTsyODg3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, altura, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a base&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Digite a altura&quot;" newline="True"/>
+            <input variable="altura"/>
+            <assign variable="area" expression="base * altura"/>
+            <output expression="area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
